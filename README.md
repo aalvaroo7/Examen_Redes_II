@@ -1,6 +1,6 @@
 # Examen_Redes_II
 
-(https://github.com/aalvaroo7/Examen_Redes_II.git)](https://github.com/aalvaroo7/Examen_Redes_II.git)
+https://github.com/aalvaroo7/Examen_Redes_II.git
 
 # Parte I: Conceptos y Teoría
 
@@ -191,6 +191,28 @@ Tal y como se muestra aquí, hemos realizado un **ping** al **192.168.3.5**, que
 
 A continuación, se muestra un **ping** en la misma red para verificar la conexión de dispositivos en la misma red.
 ![image](https://github.com/user-attachments/assets/40ad5809-9843-4cad-b37f-329224640a7c)
+
+Ademas cabe especificar porque se han empleado tecnologías WAN(nube) por los siguientes motivos:
+
+1.Como hay una distancia bastante importante(un desierto entre medias) 
+ Usamos proveedores de servicios que nos permiten conectar los routers a través de una red externa. Esto puede ser:  
+
+- Internet (VPN sobre IP pública)  
+- MPLS (Red Privada del ISP)  
+- Frame Relay  (**Nuestra nube**)
+- Redes LTE/5G o satelitales  
+
+En Cisco Packet Tracer, la nube representa esta infraestructura intermedia. No es un simple cable, sino un simulador de la red del proveedor.  
+
+### ¿Cómo Funciona la Nube en Packet Tracer?  
+
+Cuando usas una nube en Packet Tracer, puedes hacer que represente un ISP o una red WAN que conecta dos routers. Puedes configurarla para soportar diferentes tecnologías como:  
+
+- Frame Relay  
+- PPP (Point-to-Point Protocol)  
+- DSL, Ethernet, o incluso un simple puente entre routers  
+
+Así, en vez de conectar un cable serial directo, cada router se conecta a la nube, que a su vez los interconecta de forma transparente o simulando una tecnología específica.  
 
 # Ejercicio 2: La Ciudad de las Redes Aisladas
 
